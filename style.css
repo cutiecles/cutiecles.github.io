@@ -1,0 +1,151 @@
+body {
+    font-family: Arial;
+   }
+ 
+ 
+   form {
+     width: 500px;
+     margin: 0 auto;
+    }
+    
+    
+    .image {
+     border-radius: 25px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+    }
+    
+    .E-mail{
+     border-radius: 50px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+     background-color: black;
+     color: white;
+     height: 100px;
+    }
+    
+    
+   p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+   }
+   
+   
+   p + h1 {
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+   }
+   
+   .hero {
+     border-radius: 100%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   
+   
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  
+  li{
+      float: left;
+  }
+ 
+  li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+ /* Change the link color to #111 (black) on hover */
+ li a:hover{
+   background-color: #111;
+ }
+ 
+ .active{
+     background-color: #0099ff;
+ }
+ 
+ .definition{
+   border: 2px solid black;
+   outline: #09f solid 10px;
+   margin: auto;  
+   padding: 20px;
+   text-align: center;
+   border-radius: 25px;
+   width: 75%;
+ }
+ 
+ 
+ 
+ .h-w-f{
+   border: 2px solid black;
+   outline: #3333ff solid 10px;
+   margin: auto;  
+   padding: 20px;
+   text-align: center;
+   border-radius: 25px;
+   width: 75%;
+ }
+ 
+ mark {
+     background-color: #0f0;
+ }
+ 
+ .SW{
+   border: 2px solid black;
+   outline: #ffe600 solid 10px;
+   margin: auto;  
+   padding: 20px;
+   text-align: center;
+   border-radius: 25px;
+   width: 75%;
+ }
+ 
+ .ITravel{
+   border: 2px solid black;
+   outline: #ff00d4 solid 10px;
+   margin: auto;  
+   padding: 20px;
+   text-align: center;
+   border-radius: 25px;
+   width: 75%;
+ }
+ 
+ footer{
+     background-color: #000000;
+     padding-left: 125px;
+ }
+ 
+ .link-button{
+     border-radius: 25px;
+     display: block;
+     width: 20%;
+     background-color: #0099ff;
+     color: white;
+     height: 100px;
+     text-align: center;
+     font-weight: bold;
+     margin: auto;
+    }
