@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>admin login</title>
+    </head>
+    <body>
+    <input type="password" class="pin-code" id="pin-code">
+   <button onclick="checkPin()">Check PIN</button>
+  </div>
+  <script>
+   function checkPin() {
+     var pin = document.getElementById("pin-code").value;
+     if (pin == "567321" , "5d3" , "PMG231" , "TESTCode40" , "oross21" , "Poop") {
+       window.location.href = "/unlock/index.html";
+      } else {
+       alert("PIN code incorrect!");
+      }
+    }
+  </script>
+    </body>
+</html>
