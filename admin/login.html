@@ -16,18 +16,26 @@
       <label for="pass">password</label>
       <input type="password" id="pass" placeholder="very secure password">
 
-      <button type="submit">submit</button>
+      <button type="submit" onclick="login()">login</button>
     
     </form>
   <script>
-   function checkPin() {
-     var pin = document.getElementById("pin-code").value;
-     if (pin == "567321" , "5d3" , "PMG231" , "TESTCode40" , "oross21" , "Poop") {
-       window.location.href = "/unlock/index.html";
-      } else {
-       alert("PIN code incorrect!");
-      }
+   function login() {
+    var user = document.getElementById("user");
+    var pass = document.getElementById("pass");
+
+    if (user == "Owen" and pass == "250113") {
+      window.location.href = "/unlock/owen/owen.html";
     }
+
+    else if (user == "Eloise" and pass == "1234") {
+      window.location.href = "/unlock/Eloise/Eloise.html"
+    }
+
+    else {
+      alert("Your username or password is wrong");
+    }
+   }
   </script>
     </body>
 </html>
