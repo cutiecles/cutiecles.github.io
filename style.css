@@ -149,3 +149,10 @@ body {
      font-weight: bold;
      margin: auto;
     }
+   
+#login {
+	margin: auto;
+   position: absolute;
+   display-type: flex;
+   text-align: center;
+}
