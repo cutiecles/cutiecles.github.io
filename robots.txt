@@ -1,0 +1,53 @@
+User-agent: *
+
+Disallow: /admin
+
+Sitemap: https://www.cutiecles.lovestoblog.com/sitemap.xml
+
+#Agent Specific Disallowed Sections
+
+User-agent: CCBot
+Disallow: / 
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User 
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: anthropic-ai 
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: / 
+
+User-agent: ia_archiver 
+Disallow: / 
+
+User-agent: MJ12bot 
+Disallow: / 
+
+User-agent: PiplBot
+Disallow: / 
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-Agent: PerplexityBot 
+
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
